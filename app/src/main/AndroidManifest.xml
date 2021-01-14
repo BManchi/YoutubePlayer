@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YoutubePlayer">
-        <activity android:name=".YoutubeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:label="Youtube Player"
+            android:name=".YoutubeActivity">
+        </activity>
+        <activity
+            android:label="StandaloneActivity"
+            android:name=".StandaloneActivity">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
